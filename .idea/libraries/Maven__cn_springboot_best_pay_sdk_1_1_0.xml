@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.springboot:best-pay-sdk:1.1.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/springboot/best-pay-sdk/1.1.0/best-pay-sdk-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/springboot/best-pay-sdk/1.1.0/best-pay-sdk-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/springboot/best-pay-sdk/1.1.0/best-pay-sdk-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
