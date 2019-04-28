@@ -1,6 +1,7 @@
 package com.imooc.dataobject;
 
 import org.hibernate.annotations.DynamicInsert;
+import org.hibernate.annotations.DynamicUpdate;
 
 import java.util.Date;
 
@@ -15,12 +16,13 @@ import lombok.Data;
  */
 @Data
 @Entity
+@DynamicUpdate
 @DynamicInsert
 public class Picture {
 
     @Id
     @GeneratedValue
-    private int picId;
+    private Integer picId;
     private String picUrl;
     private String picMessage;
     private Date picCreate;

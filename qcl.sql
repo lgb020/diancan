@@ -97,10 +97,10 @@ create table `user`
 
 create table `picture`
 (
-  `pic_id`      INT         not null auto_increment,
+  `pic_id`      INT          not null auto_increment,
   `pic_url`     varchar(255) not null,
-  `pic_message` varchar(64) not null,
-  `pic_create`  timestamp   not null default current_timestamp comment '创建时间',
+  `pic_message` varchar(64)  not null,
+  `pic_create`  timestamp    not null default current_timestamp comment '创建时间',
   primary key (`pic_id`)
 ) comment '轮播图表';
 
